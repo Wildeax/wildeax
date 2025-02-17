@@ -73,10 +73,6 @@ Welcome to my neon-lit corner of GitHub. I'm **Wildeax**
 
 ###
 
-<img src="https://raw.githubusercontent.com/wildeax/wildeax/output/snake.svg" alt="Snake animation" />
-
-###
-
 <div align="center">
   <a href="https://open.spotify.com/user/wildeax">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=wildeax&count=10&unique=true" alt="Spotify recently played"  />
