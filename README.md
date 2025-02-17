@@ -1,19 +1,38 @@
-<p align="left">;                                               <br>                                        ED.                                             <br>                                        E#Wi                 ,;                         <br>                     t              i   E
-###G.             f#i                          <br>            ;        Ej            LE   E#fD#W;          .E#t             ..            <br>          .DL        E#,          L#E   E#t t##L        i#W,             ;W, :KW,      L<br>  f.     :K#L     LWLE#t         G#W.   E#t  .E#K,     L#D.             j##,  ,#W:   ,KG<br>  EW:   ;W##L   .E#f E#t        D#K.    E#t    j##f  :K#Wfff;          G
-###,   ;#W. jWi <br>  E#t  t#KE#L  ,W#;  E#t       E#K.     E#t    :E#K: i##WLLLLt       :E
-####,    i#KED.  <br>  E#t f#D.L#L t#K:   E#t     .E#E.      E#t   t##L    .E#L          ;W#DG##,     L#W.   <br>  E#jG#f  L#LL#G     E#t    .K#E        E#t .D#W;       f#E:       j
-###DW##,   .GKj#K.  <br>  E
-###;   L
-###j      E#t   .K#D         E#tiW#G.         ,WW;     G##i,,G##,  iWf  i#K. <br>  E#K:    L#W;       E#t  .W#G          E#K##i            .D#;  :K#K:   L##, LK:    t#E <br>  EG      LE.        E#t :W
-###
-###
-####Wt E##D.               tt ;##D.    L##, i       tDj<br>  ;       ;@         ,;.                .E#t                    ,,,      .,,             <br>                                        L:                                              <br><br>#  W I L D E A X<br>
-### *Cyberpunk Digital Artist & Game Developer*<br><br>Welcome to my neon-lit corner of GitHub. I'm **Wildeax**  <br>*(Francol Steven Aristizabal Romero)* – a digital artist, game developer, and co‑founder of **Mood Studios LLC** based in Medellín, Colombia. I blend retro‑futuristic cyberpunk aesthetics with modern technology to create art and interactive experiences that look straight out of a dystopian future.<br><br>---<br><br>
-### About Me<br>- **Location:** Medellín, Colombia<br>- **Occupation:** Digital Artist & Game Developer  <br>- **Interests:** Cyberpunk & Sci‑Fi, retro design, indie games, futuristic UI/UX  <br>- **Connect with me on Discord:** `Wildeax`<br><br>---<br><br>
-### Skills & Technologies<br>```diff<br>+ Cyberpunk UI/UX Design & Digital Illustration<br>+ Game Development (Unity, C#, etc.)<br>+ Retro & Pixel Art<br>+ Creative coding and interactive experiences</p>
+<!--
 
-###
+ ▄█     █▄   ▄█   ▄█       ████████▄     ▄████████    ▄████████ ▀████    ▐████▀ 
+███     ███ ███  ███       ███   ▀███   ███    ███   ███    ███   ███▌   ████▀  
+███     ███ ███▌ ███       ███    ███   ███    █▀    ███    ███    ███  ▐███    
+███     ███ ███▌ ███       ███    ███  ▄███▄▄▄       ███    ███    ▀███▄███▀    
+███     ███ ███▌ ███       ███    ███ ▀▀███▀▀▀     ▀███████████    ████▀██▄     
+███     ███ ███  ███       ███    ███   ███    █▄    ███    ███   ▐███  ▀███    
+███ ▄█▄ ███ ███  ███▌    ▄ ███   ▄███   ███    ███   ███    ███  ▄███     ███▄  
+ ▀███▀███▀  █▀   █████▄▄██ ████████▀    ██████████   ███    █▀  ████       ███▄ 
+                 ▀                                                              
+-->
 
+#  W I L D E A X
+### *Cyberpunk Digital Artist & Game Developer*
+
+Welcome to my neon-lit corner of GitHub. I'm **Wildeax**  
+*(Francol Steven Aristizabal Romero)* – a digital artist, game developer, and co‑founder of **Mood Studios LLC** based in Medellín, Colombia. I blend retro‑futuristic cyberpunk aesthetics with modern technology to create art and interactive experiences that look straight out of a dystopian future.
+
+---
+
+### About Me
+- **Location:** Medellín, Colombia
+- **Occupation:** Digital Artist & Game Developer  
+- **Interests:** Cyberpunk & Sci‑Fi, retro design, indie games, futuristic UI/UX  
+- **Connect with me on Discord:** `Wildeax`
+
+---
+
+### Skills & Technologies
+
++ Cyberpunk UI/UX Design & Digital Illustration
++ Game Development (Unity, C#, etc.)
++ Retro & Pixel Art
++ Creative coding and interactive experiences
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=wildeax&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
 </div>
