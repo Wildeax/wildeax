@@ -1,5 +1,4 @@
-<!--
-
+```
  ▄█     █▄   ▄█   ▄█       ████████▄     ▄████████    ▄████████ ▀████    ▐████▀ 
 ███     ███ ███  ███       ███   ▀███   ███    ███   ███    ███   ███▌   ████▀  
 ███     ███ ███▌ ███       ███    ███   ███    █▀    ███    ███    ███  ▐███    
@@ -9,74 +8,116 @@
 ███ ▄█▄ ███ ███  ███▌    ▄ ███   ▄███   ███    ███   ███    ███  ▄███     ███▄  
  ▀███▀███▀  █▀   █████▄▄██ ████████▀    ██████████   ███    █▀  ████       ███▄ 
                  ▀                                                              
--->
+```
 
-#  W I L D E A X
-### *Cyberpunk Digital Artist & Game Developer*
+> **Francol Steven Aristizabal Romero** · Medellín, Colombia  
+> Co-founder at Mood Studios LLC. I build multiplayer backends, desktop clients, and the pipelines that ship them.
 
-Welcome to my neon-lit corner of GitHub. I'm **Wildeax**  
-*(Francol Steven Aristizabal Romero)* – a digital artist, game developer, and co‑founder of **Mood Studios LLC** based in Medellín, Colombia. I blend retro‑futuristic cyberpunk aesthetics with modern technology to create art and interactive experiences that look straight out of a dystopian future.
+I came up through digital art and game design. These days most of my hours go to the
+systems underneath: game servers that hold a few thousand players, Electron and Tauri
+clients, Postgres schemas measured in tens of millions of rows, and the Docker and
+GitHub Actions plumbing that puts all of it in front of people.
 
----
-
-### About Me
-- **Location:** Medellín, Colombia
-- **Occupation:** Digital Artist & Game Developer  
-- **Interests:** Cyberpunk & Sci‑Fi, retro design, indie games, futuristic UI/UX  
-- **Connect with me on Discord:** `Wildeax`
+Colombian, self-taught, still learning in public.
 
 ---
 
-### Skills & Technologies
+## // Currently building
 
-+ Cyberpunk UI/UX Design & Digital Illustration
-+ Game Development (Unity, C#, etc.)
-+ Retro & Pixel Art
-+ Creative coding and interactive experiences
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=wildeax&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-</div>
+### Splitwars Online
+Sci-fi isometric MMO RTS for PC and mobile, in closed alpha. A Unity 6000.3 client talks
+to a Java backend on SmartFoxServer, with a Go load balancer and fleet observer in front,
+a Rust pipeline that builds and packages client releases, and a Cloudflare Worker serving
+the development CDN. Payments go through Xsolla.
 
-###
+[splitwars.com](https://splitwars.com)
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="40" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/unity/FFFFFF" height="40" alt="unity logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/blender/F5792A" height="40" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/figma/F24E1E" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" height="40" alt="xd logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="40" alt="photoshop logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="40" alt="illustrator logo"  />
-</div>
+### Arena Assistant
+Companion app for the League of Legends Arena mode. Electron and React on the desktop,
+backed by a Node and Express crawler that has pulled 1.8M matches and 35M participant
+rows into Postgres and aggregates them on a 15 minute cycle. Releases go out as blue/green
+Docker swaps behind nginx from GitHub Actions, and the Windows installer is code-signed
+with auto-updates through electron-updater.
 
-###
+[arena-assistant.com](https://arena-assistant.com)
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/wildeax/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://x.com/Wildeax_" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  </a>
-  <a href="wildeax" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-</div>
+### Sweepr98
+Minesweeper rebuilt for the browser inside a Windows 98 shell, with co-op, race, and
+ranked modes. Solo build, start to finish.
 
-###
+[sweepr98.com](https://sweepr98.com)
+
+### Mood Collab
+Real-time Markdown collaboration for Obsidian. Per-user cursors, anchored comments,
+folder-level roles for editors and viewers, and conflict-safe reconciliation for notes
+that changed on disk while you were offline.
+
+[Listing and releases](https://github.com/MoodStudios/moodstudios-collab-dist)
+
+### Pharmacy POS and ERP
+Replacing a legacy .NET point-of-sale and ERP, working from the decompiled source and a
+map of the processes it runs. Java backend, two TypeScript frontends (a stripped-down
+counter POS and a full backoffice that ships as both web and a Tauri desktop app), both
+drawing on one shared design system.
+
+---
+
+## // Open source
+
+- [nextclaim](https://github.com/Wildeax/nextclaim). Electron tray app that auto-claims the daily free games on Epic, Prime Gaming, and GOG.
+- [GrammaBot](https://github.com/Wildeax/GrammaBot). Telegram bot that turns a spoken voice note into a bookkeeping entry. Whisper transcribes it, an LLM pulls out the fields, SQLite keeps the ledger. Built so someone who does not use spreadsheets can still keep books.
+- [kobo-sticker-mod](https://github.com/Wildeax/kobo-sticker-mod). KOReader plugin that places stickers on book pages, with alpha blending, four size presets, and per-book persistence. Written for the Kobo Libra Color.
+- [Questionary](https://github.com/Wildeax/Questionary). React quiz app that loads questions from JSON or YAML, randomizes order, and resumes an unfinished session.
+- [aroma-affect](https://github.com/MoodStudios/aroma-affect). Minecraft mod that gives the player a sense of smell.
+
+---
+
+## // Stack
+
+**Languages and runtime**
+
+<img src="https://skillicons.dev/icons?i=ts,js,cs,java,go,rust,lua,nodejs" height="42" alt="TypeScript, JavaScript, C#, Java, Go, Rust, Lua, Node.js" />
+
+**Apps and interfaces**
+
+<img src="https://skillicons.dev/icons?i=react,electron,tauri,tailwind,vite,unity" height="42" alt="React, Electron, Tauri, Tailwind, Vite, Unity" />
+
+**Data and infrastructure**
+
+<img src="https://skillicons.dev/icons?i=postgres,redis,sqlite,docker,nginx,cloudflare,githubactions" height="42" alt="Postgres, Redis, SQLite, Docker, nginx, Cloudflare, GitHub Actions" />
+
+**Design and art**
+
+<img src="https://skillicons.dev/icons?i=blender,figma,ps,ai" height="42" alt="Blender, Figma, Photoshop, Illustrator" />
+
+The art side has not gone anywhere. Cyberpunk and retro-futurist illustration, UI work,
+and 3D still feed everything above, they just live on Instagram instead of in this repo list.
+
+---
+
+## // Activity
 
 <div align="center">
-  <a href="https://open.spotify.com/user/wildeax">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=wildeax&count=10&unique=true" alt="Spotify recently played"  />
-  </a>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Wildeax&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=FF2E88&icon_color=00E5CF&text_color=9BA5B4&ring_color=FF2E88" height="165" alt="GitHub stats" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wildeax/wildeax/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Wildeax/wildeax/output/snake.svg" alt="Contribution graph being eaten by a snake" />
+</picture>
+
 </div>
 
-###
+---
+
+## // Elsewhere
+
+<div align="center">
+
+<a href="https://wildeax.com"><img src="https://img.shields.io/badge/wildeax.com-0D1117?style=for-the-badge&logo=firefoxbrowser&logoColor=FF2E88" alt="wildeax.com" /></a>
+<a href="https://www.linkedin.com/in/wildeax/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://x.com/Wildeax_"><img src="https://img.shields.io/badge/@Wildeax__-0D1117?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://instagram.com/wildeaxart/"><img src="https://img.shields.io/badge/@wildeaxart-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<img src="https://img.shields.io/badge/Discord-wildeax-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: wildeax" />
+
+</div>
