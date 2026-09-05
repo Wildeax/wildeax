@@ -22,7 +22,7 @@ Colombian, self-taught, still learning in public.
 
 ---
 
-## // Currently building
+## Currently building
 
 ### Splitwars Online
 Sci-fi isometric MMO RTS for PC and mobile, in closed alpha. A Unity 6000.3 client talks
@@ -62,17 +62,15 @@ drawing on one shared design system.
 
 ---
 
-## // Open source
+## Open source
 
 - [nextclaim](https://github.com/Wildeax/nextclaim). Electron tray app that auto-claims the daily free games on Epic, Prime Gaming, and GOG.
-- [GrammaBot](https://github.com/Wildeax/GrammaBot). Telegram bot that turns a spoken voice note into a bookkeeping entry. Whisper transcribes it, an LLM pulls out the fields, SQLite keeps the ledger. Built so someone who does not use spreadsheets can still keep books.
-- [kobo-sticker-mod](https://github.com/Wildeax/kobo-sticker-mod). KOReader plugin that places stickers on book pages, with alpha blending, four size presets, and per-book persistence. Written for the Kobo Libra Color.
 - [Questionary](https://github.com/Wildeax/Questionary). React quiz app that loads questions from JSON or YAML, randomizes order, and resumes an unfinished session.
 - [aroma-affect](https://github.com/MoodStudios/aroma-affect). Minecraft mod that gives the player a sense of smell.
 
 ---
 
-## // Stack
+## Stack
 
 **Languages and runtime**
 
@@ -95,7 +93,7 @@ and 3D still feed everything above, they just live on Instagram instead of in th
 
 ---
 
-## // Activity
+## Activity
 
 <div align="center">
 
@@ -110,7 +108,7 @@ and 3D still feed everything above, they just live on Instagram instead of in th
 
 ---
 
-## // Elsewhere
+## Elsewhere
 
 <div align="center">
 
