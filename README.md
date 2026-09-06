@@ -11,12 +11,13 @@
 ```
 
 > **Francol Steven Aristizabal Romero** · Medellín, Colombia  
-> Co-founder at Mood Studios LLC. I build multiplayer backends, desktop clients, and the pipelines that ship them.
+> Co-founder at Mood Studios LLC. Game designer, UX and UI designer, and I build the apps I want to exist.
 
-I came up through digital art and game design. These days most of my hours go to the
-systems underneath: game servers that hold a few thousand players, Electron and Tauri
-clients, Postgres schemas measured in tens of millions of rows, and the Docker and
-GitHub Actions plumbing that puts all of it in front of people.
+I came up through digital art and game design, and that is still the centre. I care how
+an interface feels to use: the look, the interaction, the details nobody notices until
+they are wrong. The projects below are apps I wanted to exist, so I made them. When one
+needs a server or a deploy pipeline I build that too, because the app needs it, not
+because it is the point.
 
 Colombian, self-taught, still learning in public.
 
