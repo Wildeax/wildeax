@@ -55,10 +55,9 @@ that changed on disk while you were offline.
 [Listing and releases](https://github.com/MoodStudios/moodstudios-collab-dist)
 
 ### Pharmacy POS and ERP
-Replacing a legacy .NET point-of-sale and ERP, working from the decompiled source and a
-map of the processes it runs. Java backend, two TypeScript frontends (a stripped-down
-counter POS and a full backoffice that ships as both web and a Tauri desktop app), both
-drawing on one shared design system.
+Replacing a legacy .NET point-of-sale and ERP for a pharmacy business. Java backend, two
+TypeScript frontends (a stripped-down counter POS and a full backoffice that ships as both
+web and a Tauri desktop app), both drawing on one shared design system.
 
 ---
 
